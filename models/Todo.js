@@ -12,7 +12,15 @@ const TodoSchema = new mongoose.Schema({
   userId: {
     type: String,
     required: true
-  }
+  },
+  todoTimeSet: {
+    type: Date,
+    required: true,
+  },
+  todoTimeLeft: {
+    type: Date,
+    required: true,
+  },
 })
 
 module.exports = mongoose.model('Todo', TodoSchema)

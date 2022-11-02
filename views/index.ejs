@@ -42,37 +42,7 @@
               </svg>
             </button>
           </div>
-          <nav class="hidden space-x-10 md:flex">
-            <div class="relative">
-              <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-              <button type="button" class="text-gray-500 group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" aria-expanded="false">
-                <span>Solutions</span>
-                <!--
-                  Heroicon name: mini/chevron-down
-  
-                  Item active: "text-gray-600", Item inactive: "text-gray-400"
-                -->
-                <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-                </svg>
-              </button>
-  
-              <!--
-                'Solutions' flyout menu, show/hide based on flyout menu state.
-  
-                Entering: "transition ease-out duration-200"
-                  From: "opacity-0 translate-y-1"
-                  To: "opacity-100 translate-y-0"
-                Leaving: "transition ease-in duration-150"
-                  From: "opacity-100 translate-y-0"
-                  To: "opacity-0 translate-y-1"
-              -->
-            </div>
-  
-            <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">Pricing</a>
-            <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">Partners</a>
-            <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">Company</a>
-          </nav>
+
           <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
             <a href="/login" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">Sign in</a>
             <a href="/signup" class="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Sign up</a>
@@ -195,30 +165,7 @@
           </div>
         </div>
       </div>
-  
-      <!-- Logo Cloud -->
-      <div class="bg-gray-100">
-        <div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-          <p class="text-center text-base font-semibold text-gray-500">Trusted by over 5 very average small businesses</p>
-          <div class="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple">
-            </div>
-            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img class="h-12" src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg" alt="Mirage">
-            </div>
-            <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img class="h-12" src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg" alt="StaticKit">
-            </div>
-            <div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-              <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Transistor">
-            </div>
-            <div class="col-span-2 flex justify-center md:col-span-2 md:col-start-4 lg:col-span-1">
-              <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-gray-400.svg" alt="Workcation">
-            </div>
-          </div>
-        </div>
-      </div>
+
   
       <!-- Alternating Feature Sections -->
       <div class="relative overflow-hidden pt-16 pb-32">
@@ -235,6 +182,7 @@
                     </svg>
                   </span>
                 </div>
+                
                 <div class="mt-6">
                   <h2 class="text-3xl font-bold tracking-tight text-gray-900">Stay on top of your To-Do List</h2>
                   <p class="mt-4 text-lg text-gray-500">Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
@@ -312,7 +260,7 @@
                 </span>
               </div>
               <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Unlimited Inboxes</h3>
+                <h3 class="text-lg font-medium text-white">Unlimited To-Do Timers</h3>
                 <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
               </div>
             </div>
@@ -327,7 +275,7 @@
                 </span>
               </div>
               <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Manage Team Members</h3>
+                <h3 class="text-lg font-medium text-white">Access your task history</h3>
                 <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
               </div>
             </div>
@@ -342,82 +290,7 @@
                 </span>
               </div>
               <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Spam Report</h3>
-                <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-              </div>
-            </div>
-  
-            <div>
-              <div>
-                <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
-                  <!-- Heroicon name: outline/pencil-square -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
-                  </svg>
-                </span>
-              </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Compose in Markdown</h3>
-                <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-              </div>
-            </div>
-  
-            <div>
-              <div>
-                <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
-                  <!-- Heroicon name: outline/document-chart-bar -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
-                  </svg>
-                </span>
-              </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Team Reporting</h3>
-                <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-              </div>
-            </div>
-  
-            <div>
-              <div>
-                <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
-                  <!-- Heroicon name: outline/arrow-uturn-left -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3" />
-                  </svg>
-                </span>
-              </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Saved Replies</h3>
-                <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-              </div>
-            </div>
-  
-            <div>
-              <div>
-                <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
-                  <!-- Heroicon name: outline/chat-bubble-left-ellipsis -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 01.778-.332 48.294 48.294 0 005.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
-                  </svg>
-                </span>
-              </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Email Commenting</h3>
-                <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
-              </div>
-            </div>
-  
-            <div>
-              <div>
-                <span class="flex h-12 w-12 items-center justify-center rounded-md bg-white bg-opacity-10">
-                  <!-- Heroicon name: outline/heart -->
-                  <svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                  </svg>
-                </span>
-              </div>
-              <div class="mt-6">
-                <h3 class="text-lg font-medium text-white">Connect with Customers</h3>
+                <h3 class="text-lg font-medium text-white">100% FREE to use</h3>
                 <p class="mt-2 text-base text-purple-200">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</p>
               </div>
             </div>
