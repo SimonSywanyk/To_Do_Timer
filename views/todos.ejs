@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TO-DO TIMER</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/5f6efef2dd.js" crossorigin="anonymous"></script>
@@ -96,7 +96,7 @@
             </div>
             <nav class="mt-5 space-y-1 px-2">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="#" class="bg-gray-900 text-white group flex items-center px-2 py-2 text-base font-medium rounded-md">
+              <a href="/todos" class="bg-gray-900 text-white group flex items-center px-2 py-2 text-base font-medium rounded-md">
                 <!--
                   Heroicon name: outline/home
   
@@ -114,6 +114,22 @@
                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
                 </svg>
                 History
+              </a>
+
+              <a href="/login" class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md">
+                <!-- Heroicon name: outline/inbox -->
+                <svg class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
+                </svg>
+                Login
+              </a>
+
+              <a href="/signup" class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md">
+                <!-- Heroicon name: outline/inbox -->
+                <svg class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
+                </svg>
+                Signup
               </a>
   
               <a href="/logout" class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md">
@@ -175,7 +191,21 @@
               </svg>
               History
             </a>
-  
+            <a href="/login" class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md">
+              <!-- Heroicon name: outline/inbox -->
+              <svg class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
+              </svg>
+              Login
+            </a>
+
+            <a href="/signup" class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-base font-medium rounded-md">
+              <!-- Heroicon name: outline/inbox -->
+              <svg class="text-gray-400 group-hover:text-gray-300 mr-4 flex-shrink-0 h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z" />
+              </svg>
+              Signup
+            </a>
             <a href="/logout" class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
               <!-- Heroicon name: outline/chart-bar -->
               <i class="fa-light fa-right-from-bracket fa-xl text-gray-400 group-hover:text-gray-300 mr-3 pt-3.5 flex-shrink-0 h-6 w-6"></i>
@@ -211,20 +241,18 @@
 
       <main class="flex-1">
         <div class="py-6">
-          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <h1 class="text-2xl font-semibold text-gray-900">Dashboard</h1>
-          </div>
           <div class="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
 
             <!-- Replace with your content -->
 
             <div class="px-4 sm:px-6 lg:px-8">
                   <div class="sm:flex-auto mt-4">
-                    <h2 class="text-xl font-semibold text-gray-900">You have <%= left %> tasks left to complete.</h2>
+                    <h2 class="text-xl font-semibold text-gray-900">You have <%= left %> To-Do Timers left to complete.</h2>
                   </div>
                   <div class="sm:flex-auto mt-4 whitespace-wrap">
-                    <form action="/todos/createTodo" method='POST' class=" whitespace-wrap">
-                        <input type="text" name="todoItem" class="whitespace-wrap bg-gray-200 block w-full border-0 p-0 text-gray-900 placeholder-gray-500 px-3 py-5 focus:ring-0 sm:text-sm" placeholder="Add a Task..">
+                    <form action="/todos/createTodo" method='POST' class="whitespace-wrap">
+                      <input type="text" name="todoTime" class="whitespace-wrap bg-gray-200 border-0 p-0 text-gray-900 placeholder-gray-500 px-3 py-5  mr-2 mt-2 mb-2 focus:ring-0 sm:text-sm" placeholder="# OF MINUTES">
+                        <input type="text" name="todoItem" class="break-normal bg-gray-200 block w-full border-0 p-0 text-gray-900 placeholder-gray-500 px-3 py-5 mr-2 mt-2 mb-2 focus:ring-0 sm:text-sm" placeholder="ADD TASK DESCRIPTION..">
                         <input type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mt-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
                     </form>
                   </div>
@@ -259,7 +287,9 @@
                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">1:00</td>
                                 <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">0:59</td>
                                 <td class="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6 lg:pr-8 del">
-                                  <a href="#" class="text-indigo-600 hover:text-indigo-900">Delete</a>
+                                  <a href="#" class="text-red-300 hover:text-red-700">
+                                    <i class="fa-trash fa-solid fa-xl"></i>
+                                  </a>
                               </td>
                             </tr>
                             <% }) %> 
