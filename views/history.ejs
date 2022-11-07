@@ -185,7 +185,7 @@
 
             <div class="px-4 sm:px-6 lg:px-8">
                   <div class="sm:flex-auto mt-4">
-                    <h2 class="text-xl font-semibold text-gray-900">You have <%= left %> To-Do Timers left to complete.</h2>
+                    <h2 class="text-xl font-semibold text-gray-900">You have completed <%= completed %> To-Do Timers</h2>
                   </div>
 
                 <div class="mt-8 flex flex-col">
@@ -205,7 +205,7 @@
                             </tr>
                           </thead>
                           <tbody class="divide-y divide-gray-200 bg-white">
-                            <% (Todo.countDocuments({userId:req.user.id,completed: false})).forEach( el => { %>
+                            <% (Todo.countDocuments({userId:req.user.id,completed: true})).forEach( el => { %>
                             <tr class='todoItem hover:bg-gray-100' data-id='<%=el._id%>'>
                               <td class="whitespace-wrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 lg:pl-8">
                                 <span><%= el.todo %></span>

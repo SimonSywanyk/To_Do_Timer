@@ -11,6 +11,16 @@ module.exports = {
             console.log(err)
         }
     },
+    getCompleted: async (req,res)=>{
+        console.log(req.user)
+        try{
+            const todosCompleted = await Todo.find({userId:req.user.id,completed: true})
+            const itemsCompleted = await Todo.countDocuments({userId:req.user.id,completed: true})
+            res.render('history.ejs', {todos: todosCompleted, completed: itemsCompleted, user: req.user})
+        }catch(err){
+            console.log(err)
+        }
+    },
     createTodo: async (req, res)=>{
         try{
             await Todo.create({todo: req.body.todoItem, completed: false, userId: req.user.id})
